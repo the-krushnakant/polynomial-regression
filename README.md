@@ -1,6 +1,10 @@
 # polynomial-regression
 The Polynomial Regression Module
 
+Noticeably faster than numpy.polyfit or numpy.Polynomial.polynomial.polynomial.fit for small and large ndarrays alike.
+
+Uses the computational power of numpy. (to be faster than numpy lol!)
+
 See Usage at-  https://github.com/the-krushnakant/polynomial-regression
 
 -----------------------------------------------------------------------------------
