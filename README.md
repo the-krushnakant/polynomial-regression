@@ -1,7 +1,7 @@
 # polynomial-regression
 The Polynomial Regression Module
 
-Noticeably faster than numpy.polyfit or numpy.Polynomial.polynomial.polynomial.fit for small and large ndarrays alike.
+Noticeably faster implementation than numpy.polyfit .
 
 Uses the computational power of numpy. (to be faster than numpy :)) )
 
@@ -37,6 +37,11 @@ For example, if you provide x,y,2 ; then the returned ndarray c will be such tha
 
 -------------------------------------------------------------------------------------
 
-The Following Graph has time on y-axis and run number on x-axis. It shows time taken by pr.regress (in blue) and np.polyfit (in orange) to perform polynomial regression for 1000000 length arrays x and y, for degree=2. You can see that pr.regress is about 4 to 5 times faster.
+The Following Graph has time on y-axis and run number on x-axis. It shows time taken by pr.regress (in blue) and np.polyfit (in orange) to perform polynomial regression for 60000 length arrays x and y, for degree=1 (Linear Regression). You can see that pr.regress is about 6 to 7 times faster. 
+
+![Degree 1](https://github.com/the-krushnakant/polynomial-regression/blob/master/degree1.png?raw=true)
+
+For degree=2, i.e. quadratic regression, pr.regress is about 4 to 5 times faster.
 
 ![Degree 2](https://github.com/the-krushnakant/polynomial-regression/blob/master/degree2.png?raw=true)
+
