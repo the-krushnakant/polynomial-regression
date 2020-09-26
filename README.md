@@ -33,7 +33,7 @@ len(x) should be equal to len(y) and n must be lesser than or equal to both.
 
 It returns a numpy.ndarray of len=n+1 , where c[i] is the coefficient of x\*\*i (x to the power of i) in the best fit polynomial of degree n.
 
-For example, if you provide x,y,2 ; then the returned ndarray c will be such that c[0]+c[1]*x+c[2]*x*x is the best fit polynomial of degree 2 for y.
+For example, if you provide x,y,2 ; then the returned ndarray c will be such that c[0]+c[1]*x+c[2]\*x\*x is the best fit polynomial of degree 2 for y.
 
 -------------------------------------------------------------------------------------
 
